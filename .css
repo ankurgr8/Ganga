@@ -1,32 +1,56 @@
-    div {   
+    div {
+    vertical-align: middle;
+    line-height: 50px;
     height: 50px;
     width: 50px;
-    background-color: orangered;
+    background-color: rgba(255, 132, 66, 1);
     color: blue;
     /*border: 1px solid white;*/
     margin: 25px;
     text-align: center;
+    border-radius: 20px;
     }
-section{
+    /*line height is for vertical alignment for text in div*/
+#section00{
     position: absolute;
-    left: 150px;
-    top: 75px;
+/*    margin: 50px;*/
+    padding: 50px;
+    top: 50px;
 }
 span {
-    left: 25px;
+    left: 15px;
     display: block;
     width: 300px;
     height: 75px;
 }
-#div00, #div01, #div02, #div03, #div04, #div05, #div06, #div07, #div08, #div09, #div10 {
+#div00, #div01, #div02, #div03, #div04, #div05, #div06, #div07, #div08, #div09, #div10, #div11 {
     float: left;
     overflow: hidden;
     }
-#div00, #div10 {
+/*#div00, #div10 {
     position: relative;
     left: 100px;
-}
+}*/
 body {
     height: 600px;
     font-size: 28px;
+    vertical-align: middle;
+}
+/*#div12 {
+    position: absolute;
+    padding: 25;
+}*/
+#section01 {
+    position: absolute;
+    left: 640px;
+    top: 250px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    #section00 {
+        margin: auto;
+        padding: 0;
+    }
+}
+html {
+    font-family: Arial, sans-serif;
 }
