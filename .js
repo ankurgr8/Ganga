@@ -12,4 +12,5 @@ var div10 = document.getElementById("div10");
 var div11 = document.getElementById("div11");
 var div12 = document.getElementById("div12");
 var div13 = document.getElementById("div13");
- 
+var name = window.prompt("Enter your name: ");
+alert("Your name is " + name);
